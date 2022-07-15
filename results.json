@@ -5,17 +5,45 @@
   "passed": [
     {
       "describe": "build/1",
-      "file": "/Users/mingyar/Code/rocketseat/ignite/challenge_report_generator/test/gen_report_test.exs",
+      "file": "/Users/mingyar/Code/rocketseat/ignite/challenge_report_generator_parallel/test/gen_report_test.exs",
       "line": 16,
       "module": "Elixir.GenReportTest",
       "test": "test build/1 When no filename was given, returns an error"
     },
     {
       "describe": "build/1",
-      "file": "/Users/mingyar/Code/rocketseat/ignite/challenge_report_generator/test/gen_report_test.exs",
+      "file": "/Users/mingyar/Code/rocketseat/ignite/challenge_report_generator_parallel/test/gen_report_test.exs",
       "line": 10,
       "module": "Elixir.GenReportTest",
       "test": "test build/1 When passing file name return a report"
+    },
+    {
+      "describe": "parse_file/1",
+      "file": "/Users/mingyar/Code/rocketseat/ignite/challenge_report_generator_parallel/test/parser_test.exs",
+      "line": 7,
+      "module": "Elixir.GenReport.ParserTest",
+      "test": "test parse_file/1 parses the file"
+    },
+    {
+      "describe": "build_from_many/1",
+      "file": "/Users/mingyar/Code/rocketseat/ignite/challenge_report_generator_parallel/test/gen_parallel_report_test.exs",
+      "line": 10,
+      "module": "Elixir.GenParallelReportTest",
+      "test": "test build_from_many/1 When passing a list of files names return a report"
+    },
+    {
+      "describe": "build_from_many/1",
+      "file": "/Users/mingyar/Code/rocketseat/ignite/challenge_report_generator_parallel/test/gen_parallel_report_test.exs",
+      "line": 22,
+      "module": "Elixir.GenParallelReportTest",
+      "test": "test build_from_many/1 When a filename is given, returns an error"
+    },
+    {
+      "describe": "build_from_many/1",
+      "file": "/Users/mingyar/Code/rocketseat/ignite/challenge_report_generator_parallel/test/gen_parallel_report_test.exs",
+      "line": 16,
+      "module": "Elixir.GenParallelReportTest",
+      "test": "test build_from_many/1 When no filenames was given, returns an error"
     }
   ],
   "skiped": []
